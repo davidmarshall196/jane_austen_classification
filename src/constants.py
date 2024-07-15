@@ -1,0 +1,10 @@
+DATA_FILE_PATH = '../data/gutenberg-paragraphs.json'
+MODEL_FILE_PATH = '../artefacts/austen_classifier_model_v2'
+LOGGER_NAME = '../artefacts/austen_classifier_model_v2'
+DATA_COLUMNS = {'text', 'austen'}
+MODEL = 'distilbert-base-uncased'
+TOKENIZER = 'distilbert-base-uncased'
+TRAIN_SIZE = 0.01
+VAL_SIZE = 0.01
+BATCH_SIZE = 16
+NUM_EPOCHS = 3

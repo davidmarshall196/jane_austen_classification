@@ -1,0 +1,28 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+jane_austen_venv/
+
+# VSCode settings
+.vscode/
+
+# Artefacts
+artefacts/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/
+
+# Any other temporary or generated files
+*.log
+*.tmp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
