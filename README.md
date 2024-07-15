@@ -48,14 +48,11 @@ With the current training process, training takes less than 2 minutes and evalua
 * Logging: I am happy with the logging used in the project. I have kept the logs in the repo for viewing.
 
 ## Improvements
-EDA: I did very little in the way of EDA. While there is only 1 column, I would like to look at things like:
-* The books the texts come from. Perhaps the model only performs well on 1 or 2 of Jane Austen's novels
-* The impact of NLP techniques including lemmatisation, stemming, stop word removal etc
-* TF-IDF of some kind (perhaps combined with a simple classification model) to identify the words commonly used by Austen
-
-Dockerfile: Depending on the use case, for production, the project could use a Dockerfile which would allow easier deployment, particularly around consistency of environment and dependencies.
-
-Unit and integration tests: I created a couple of sample unit tests but I think it could benefit from more, including some integration tests to test the components and modelling together.
-
-Training time: in order to achieve high accuracy (99%), a lot of data is utilised which leads to training time being high. Further experiments are needed to reduce this (e.g. Epochs, batch size, amount of data etc.)
+* EDA: I did very little in the way of EDA. While there is only 1 column, I would like to look at things like:
+- The books the texts come from. Perhaps the model only performs well on 1 or 2 of Jane Austen's novels
+- The impact of NLP techniques including lemmatisation, stemming, stop word removal etc
+- TF-IDF of some kind (perhaps combined with a simple classification model) to identify the words commonly used by Austen
+* Dockerfile: Depending on the use case, for production, the project could use a Dockerfile which would allow easier deployment, particularly around consistency of environment and dependencies.
+* Unit and integration tests: I created a couple of sample unit tests but I think it could benefit from more, including some integration tests to test the components and modelling together.
+* Training time: in order to achieve high accuracy (99%), a lot of data is utilised which leads to training time being high. Further experiments are needed to reduce this (e.g. Epochs, batch size, amount of data etc.)
 
