@@ -1,4 +1,4 @@
-# Tech test Solution
+# Tech Test Solution
 
 ## Overview
 
@@ -18,7 +18,6 @@ python3 -m venv jane_austen_venv
 source jane_austen_venv/bin/activate
 
 # Navigate inside the repo and install requirements
-```
 pip install -r requirements.txt
 ```
 
