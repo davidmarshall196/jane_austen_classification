@@ -47,7 +47,7 @@ With the current training process, training takes less than 2 minutes and evalua
 * Model Accuracy: while training takes a while with the volume used to achieve it, 99% accuracy (F1) is a very high accuracy.
 * Logging: I am happy with the logging used in the project. I have kept the logs in the repo for viewing.
 
-## Improvements
+## Improvements
 * EDA: I did very little in the way of EDA. While there is only 1 column, I would like to look at things like:
 - The books the texts come from. Perhaps the model only performs well on 1 or 2 of Jane Austen's novels
 - The impact of NLP techniques including lemmatisation, stemming, stop word removal etc
