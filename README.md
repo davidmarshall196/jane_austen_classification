@@ -41,7 +41,7 @@ curl -X POST http://127.0.0.1:5000/predict -H "Content-Type: application/json" -
 Modelling: the model used is distilbert-base-uncased, a good language model for clssification tasks. It is pre-trained on a large amount of data but distilled into a smaller, faster format meaning results and performance are generally good. Preprocessing is generally not required.
 
 ## Results
-With the current training process, training takes less than 2 minutes and evaluation about the same (classification matrix can be seen in the logs). This achieves 89% accuracy on the test set. Currently this is set to use 10% of the overall dataset with 0.5% used for training, 0.5% for validation and 9% for testing. Increasing the data used increases accuracy to 99%. F1 score has been chosen as a balance between precision and recall.
+With the current training process, training takes less than a minute and evaluation about the same (classification matrix can be seen in the logs). This achieves varying poor accuracy on the test set. Currently this is set to use 10% of the overall dataset with 0.5% used for training, 0.5% for validation and 9% for testing. Increasing the data used increases accuracy to 99%. F1 score has been chosen as a balance between precision and recall. These results are demonstrated in the logging files, although training time is longer.
 
 ## Good Points
 * Model Accuracy: while training takes a while with the volume used to achieve it, 99% accuracy (F1) is a very high accuracy.

@@ -6,6 +6,7 @@ __pycache__/
 
 # Virtual environment
 jane_austen_venv/
+src/jane_austen_venv/
 
 # VSCode settings
 .vscode/
@@ -20,7 +21,6 @@ artefacts/
 .pytest_cache/
 
 # Any other temporary or generated files
-*.log
 *.tmp
 
 # OS-specific files
