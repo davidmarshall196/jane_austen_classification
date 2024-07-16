@@ -37,9 +37,9 @@ def train_and_validate_model(
     Train the model.
 
     Args:
-        model (DistilBertForSequenceClassification): The BERT model.
+        model_type (str): The chosen BERT model.
         train_loader (DataLoader): DataLoader for training data.
-        device (torch.device): Device to train the model on.
+        validation_loader (DataLoader): DataLoader for training data.
         num_epochs (int, optional): Number of epochs for training. Defaults to 3.
         directory (str): Location to save the model.
     """
