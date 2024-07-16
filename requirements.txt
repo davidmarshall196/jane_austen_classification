@@ -56,7 +56,7 @@ ipywidgets==8.0.4
 isoduration==20.11.0
 isort==5.12.0
 ## !! Could not determine repository location
--e /Users/david@inawisdom.com/Documents/Training/jane_austen/src
+-e src
 jedi==0.18.2
 Jinja2==3.1.2
 jmespath==1.0.1
